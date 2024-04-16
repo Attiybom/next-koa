@@ -9,15 +9,14 @@ import Router from "next/router";
 const IndexPage = () => {
   function handleClick() {
     Router.push({
-      pathname: "/second/demo",
-      query: { id: 2 },
+      pathname: "/posts/2",
     });
   }
 
   return (
     <>
       <div>
-        <Link href="/demo?id=1">
+        <Link href="/posts/1">
           <Button>antd button</Button>
         </Link>
         <br />

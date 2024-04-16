@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server/index.js",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
@@ -15,9 +15,7 @@
   "dependencies": {
     "antd": "4.24.16",
     "ioredis": "4.14.0",
-    "koa": "^2.8.1",
     "koa-body": "^4.1.1",
-    "koa-router": "^7.4.0",
     "koa-session": "^5.12.3",
     "next": "^12.0.5",
     "nodemon": "^3.1.0",
