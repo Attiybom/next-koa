@@ -1,8 +1,12 @@
 import React from "react";
 
+import { Button } from "antd";
+
  const IndexPage = () => (
   <>
-    <div>react</div>
+    <div>
+      <Button>antd button</Button>
+    </div>
   </>
 );
 export default IndexPage;
