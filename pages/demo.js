@@ -12,5 +12,9 @@ export default function Demo() {
     console.log(count);
   };
 
-  return <Button onClick={handleClick}>click me {count} times</Button>;
+  return (
+    <>
+      <Button onClick={handleClick}>click me {count} times</Button>
+    </>
+  );
 }
