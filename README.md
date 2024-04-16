@@ -1,10 +1,10 @@
+<a href="./README_zh_CN.md">中文版</a>
+
 # next-koa-github-oauth
 # Next.js + Koa + Github OAuth Example
 
 This is an example of how to use Github OAuth with Next.js and Koa.
 
-// chinese version
-<a href="./README_zh_CN.md">中文版</a>
 
 # How to use
 
